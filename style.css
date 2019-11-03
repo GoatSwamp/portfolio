@@ -1,0 +1,70 @@
+html, body, div, header, section, p, span {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+@font-face {
+  font-family: 'DotFont';
+  src: url(/Users/hiroki/Library/Fonts/PixelMplus12-Regular.ttf);
+}
+
+body {
+  background-color: #000000;
+  font-family: 'DotFont', serif;
+}
+
+.header {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.box {
+  padding: 1em 1em; /*文字の上下、左右*/
+  margin: 1em 1em; /*枠組みの上下、左右*/
+  color: #ffffff;/*文字色*/
+  background-color: #0022ff;
+  border: solid 3px #ffffff;/*線*/
+  border-radius: 10px;/*角の丸み*/
+}
+
+.box_header{
+  padding: 1em 1em; /*文字の上下、左右*/
+  margin: 2em 1em 0em; /*枠組みの上下、左右*/
+  color: #ffffff;/*文字色*/
+  background-color: #0022ff;
+  border: solid 3px #ffffff;/*線*/
+  border-radius: 10px;/*角の丸み*/
+}
+
+.box.link {
+  position: relative;
+}
+
+.box.link a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.box.option {
+  position: relative;
+  margin: 1em 1em 1em 70em
+}
+
+.box.option a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.text {
+  /*
+  今のところ未実装。必要に応じて
+  padding: 0.2em 1em;
+  */
+}
