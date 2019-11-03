@@ -51,7 +51,8 @@ body {
 
 .box.option {
   position: relative;
-  margin: 1em 1em 1em 70em
+  width: 100px;
+  margin-left: auto;
 }
 
 .box.option a {
