@@ -6,7 +6,7 @@ html, body, div, header, section, p, span {
 
 @font-face {
   font-family: 'DotFont';
-  src: url(/*適宜自分のフォントフォルダを参照してくださいませ*/PixelMplus12-Regular.ttf);
+  src: url(/*適宜自分のフォントフォルダを参照してください*/PixelMplus12-Regular.ttf);
 }
 
 body {
